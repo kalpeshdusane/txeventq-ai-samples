@@ -1,4 +1,4 @@
-CREATE USER h_user identified by h_password ;
+CREATE USER h_user identified by h_password ;  -- You can change the user name and password here
 GRANT connect,resource to h_user;
 GRANT alter session to h_user;
 -- TxEventQ privileges
