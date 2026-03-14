@@ -152,10 +152,10 @@ As we are going to use OML model based in database; we put the training data in 
 
 ##### 1. Download the data
 
-I have used various kaggle dataset and consolidated in this sharepoint link: [train.zip](https://oracle-my.sharepoint.com/:u:/p/kalpesh_dusane/IQCNC_dZ5DKcRJhnooWQZ28JAQRzWhJyx_IcVivhsTsoOto?e=Slwjce) (size ~ 1.19GB)
+I have used various kaggle dataset.
 Please download the data set and unzip the file and override the `train` folder data onto `data\train` (or remove the repo folder and put the `train` folder)
 
-You can also download the dataset from following:
+You can download the dataset from following:
 - Chest X-ray data set is taken from kaggle: https://www.kaggle.com/datasets/alifrahman/chestxraydataset
 - Brain Tumor data set is taken from kaggle: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 But keep the file structure same as in the repo.
