@@ -135,7 +135,7 @@ pip install -r requirements.txt
 The code uses configuration stored in `src\health_care\util\config.py`. For simplicity we have used the python file to store DB credentials and LLM API configuration. One can use `.env` file for this purpose.
 
 - `DB_DSN` - provide data source name
-- `OCA_TOKEN` - provide OCA token
+- `OCA_TOKEN` - provide LLM Key And other configuration
 
 ## Steps to run the Demo
 
