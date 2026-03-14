@@ -1,4 +1,4 @@
-# Health Care Triage Agents Example with OML and TxEventQ
+# Health Care Triage Agents Example with Oracle Machine Learning(OML) and Oracle TxEventQ
 
 Aim is to build HealthCare Pre-Diagnosis AI Workflow. 
 
