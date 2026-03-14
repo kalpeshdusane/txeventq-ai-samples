@@ -1,0 +1,12 @@
+# Runtime dependencies for health_care project
+# Core packages
+oracledb>=3.3.0
+numpy>=2.4.1
+torch>=2.10.0
+torchvision>=0.25.0
+pillow>=12.1.0
+python-dotenv>=1.2.1
+
+# Optional LLM backends (enable if needed)
+openai>=2.8.0
+ollama>=0.6.1

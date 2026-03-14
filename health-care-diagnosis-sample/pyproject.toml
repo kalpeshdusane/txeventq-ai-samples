@@ -1,0 +1,31 @@
+[project]
+name = "health_care"
+version = "0.1.0"
+description = "Health Care Example using TxEventQ and OML"
+authors = [
+    {name = "Kalpesh Dusane", email = "kalpesh.dusane@oracle.com"}
+]
+requires-python = ">=3.10"
+dependencies = [
+  "oracledb>=3.3.0",
+  "numpy>=2.4.1",
+  "torch>=2.10.0",
+  "torchvision>=0.25.0",
+  "pillow>=12.1.0",
+  "python-dotenv>=1.2.1",
+  "openai>=2.8.0",
+  "ollama>=0.6.1",
+]
+
+[project.urls]
+Repository = "git@orahub.oci.oraclecorp.com:dbeng-osd-psr/osdarch.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/health_care"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/health_care"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
